@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a,x,y;
+    int an,pan;
+    int i=1;
+    srand(time(NULL));
+    while(1){
+        a = rand() % 4;
+        x = rand() % 20 + 1;
+        y = rand() % 20 + 1;
+     }
+}
