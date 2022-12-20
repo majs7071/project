@@ -18,5 +18,13 @@ int main()
             case 2: printf("[%d/10] %d * %d = ",i,x,y); an = x * y; scanf("%d",&pan); break;
             case 3: printf("[%d/10] %d / %d = ",i,x,y); an = x / y; scanf("%d",&pan); break;
         }
-     }
+        if(an == pan){
+            printf("Correct!\n");
+            i++;
+        }
+        else
+            printf("Wrong! Answer is %d\n",an);
+        if(i==10)
+            break;
+    }
 }
